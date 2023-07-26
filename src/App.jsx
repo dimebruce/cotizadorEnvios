@@ -141,7 +141,7 @@ function App() {
             <div className="col">
               <div className="form-outline">
                 <input
-                  type="text" // Cambiado de "number" a "text"
+                  type="number" // Cambiado de "number" a "text"
                   value={zipEnd}
                   onChange={handleZipEnd}
                   placeholder="91000"
